@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Brine‑AIC | Stripe Checkout Coming Soon</title>
+  <link rel="stylesheet" href="/assets/css/antd.css">
+</head>
+
+<body>
+  <div id="layout"></div>
+
+  <script src="/assets/js/ui.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      document.querySelector(".page-content").innerHTML = `
+        <h1>Stripe Checkout Coming Soon</h1>
+        <p>Secure payments for all Brine‑AIC fermented goods are almost ready.</p>
+
+        <div class="card-grid">
+          <div class="card">
+            <h3>What’s Coming</h3>
+            <ul>
+              <li>Secure Stripe payments</li>
+              <li>Saved carts for logged-in users</li>
+              <li>Order history</li>
+              <li>Subscription ferments</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Why Stripe?</h3>
+            <p>Stripe gives us secure, fast, global payments with zero hassle.</p>
+          </div>
+
+          <div class="card">
+            <h3>Estimated Launch</h3>
+            <p>As soon as Sam approves the product lineup.</p>
+          </div>
+        </div>
+
+        <button class="btn" onclick="navigate('index.html')">Back to Home</button>
+      `;
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Brine‑AIC | Shop</title>
+  <link rel="stylesheet" href="/assets/css/antd.css">
+</head>
+
+<body>
+  <div id="layout"></div>
+
+  <script src="/assets/js/ui.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      document.querySelector(".page-content").innerHTML = `
+        <h2>Shop Ferments</h2>
+        <p>Small-batch, California-grown, eco-forward brines.</p>
+
+        <div class="product-grid">
+          <div class="product-card">
+            <img src="/assets/img/placeholders/product.jpg">
+            <h3>Garlic Dill Pickles</h3>
+            <p>$12.00</p>
+            <button class="btn">Add to Cart</button>
+          </div>
+
+          <div class="product-card">
+            <img src="/assets/img/placeholders/product.jpg">
+            <h3>Green-Space Kraut</h3>
+            <p>$10.00</p>
+            <button class="btn">Add to Cart</button>
+          </div>
+
+          <div class="product-card">
+            <img src="/assets/img/placeholders/product.jpg">
+            <h3>Spicy Kimchi Fusion</h3>
+            <p>$14.00</p>
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+      `;
+    });
+  </script>
+</body>
+</html>

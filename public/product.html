@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Brine‑AIC | Product</title>
+  <link rel="stylesheet" href="/assets/css/antd.css">
+</head>
+
+<body>
+  <div id="layout"></div>
+
+  <script src="/assets/js/ui.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      document.querySelector(".page-content").innerHTML = `
+        <h2>Product Name</h2>
+        <img src="/assets/img/placeholders/product.jpg" class="product-img">
+
+        <p>Fermented for 3–4 weeks using California-grown produce.</p>
+        <p>Eco-forward, probiotic-rich, and deeply flavorful.</p>
+
+        <button class="btn">Add to Cart</button>
+      `;
+    });
+  </script>
+</body>
+</html>

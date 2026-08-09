@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Brine‑AIC | Checkout</title>
+  <link rel="stylesheet" href="/assets/css/antd.css">
+</head>
+
+<body>
+  <div id="layout"></div>
+
+  <script src="/assets/js/ui.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      document.querySelector(".page-content").innerHTML = `
+        <h2>Checkout</h2>
+        <p>Stripe Checkout Placeholder</p>
+
+        <button class="btn" onclick="navigate('stripe-coming-soon.html')">
+            Proceed to Payment
+        </button>
+
+      `;
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Brine‑AIC | Admin</title>
+  <link rel="stylesheet" href="/assets/css/antd.css">
+</head>
+
+<body>
+  <div id="layout"></div>
+
+  <script src="/assets/js/ui.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      document.querySelector(".page-content").innerHTML = `
+        <h2>Admin Dashboard</h2>
+        <p>Manage products, orders, and inventory.</p>
+
+        <div class="card-grid">
+          <div class="card">Add Product</div>
+          <div class="card">View Orders</div>
+          <div class="card">Inventory</div>
+        </div>
+      `;
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Brine‑AIC | Cart</title>
+  <link rel="stylesheet" href="/assets/css/antd.css">
+</head>
+
+<body>
+  <div id="layout"></div>
+
+  <script src="/assets/js/ui.js"></script>
+  <script src="/assets/js/cart.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      document.querySelector(".page-content").innerHTML = `
+        <h2>Your Cart</h2>
+        <div id="cart-items">Loading cart...</div>
+        <button class="btn">Checkout</button>
+      `;
+    });
+  </script>
+</body>
+</html>
